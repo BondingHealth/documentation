@@ -1,5 +1,4 @@
-# PSYCHOSOCIAL HISTORY
-
+# Intake Form
 ## General
 
 - Patient Name:
