@@ -263,11 +263,14 @@ root
 
 ## App Structure
 
-![Bonding Health C1 Context Diagram](https://user-images.githubusercontent.com/146778/171445933-3aba7b52-520b-40ad-b023-779819417dcc.png)
-![Bonding Health C4 Component Diagram](https://user-images.githubusercontent.com/146778/170324590-6deae2e4-8c22-427f-b549-59c30448b9ec.jpg)
-![Bonding Health Home](https://user-images.githubusercontent.com/146778/152150214-fa5e75a2-af50-434e-bbde-15d355ddf8c6.png)
-![Bonding Health Exercises](https://user-images.githubusercontent.com/146778/152150222-6787605a-d44c-4a7d-9644-4a2dd8dc8733.png)
-![Bonding Health Settings](https://user-images.githubusercontent.com/146778/152150226-5f1544f0-e069-469b-b98a-4e15f37c5a6c.png)
+![Bonding Health C1 Context Diagram](https://github.com/BondingHealth/documentation/blob/main/diagrams/diagram-context.png)
+![Bonding Health C4 Component Diagram](https://github.com/BondingHealth/documentation/blob/main/diagrams/diagram-data-containers.jpg)
+
+#### old
+
+![Bonding Health Reporting](https://github.com/BondingHealth/documentation/blob/main/diagrams/diagram-dashboard-flow.png)
+![Bonding Health Exercises](https://github.com/BondingHealth/documentation/blob/main/diagrams/diagram-exercises-flow.png)
+![Bonding Health Settings](https://github.com/BondingHealth/documentation/blob/main/diagrams/diagram-settings-flow.png)
 
 ## Server cost breakdown:
 
