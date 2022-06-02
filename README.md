@@ -35,12 +35,15 @@ Please download the [Analysis design](design/analysis.jpg) for details.
 After parents have created their accounts they will be prompted to add a child.  For each child that they add the parent will complete [an intake form](README-intake.md) that we will store to develop a persona of that child for future data suggestion.
 
 Parents will be able to easily create their accounts so as to reduce the time for them to have the "aha!" moment.  We will pressure users to create an account only after they try to save data within the app.
+
+Please download the [Onboarding design](design/onboarding.jpg) for details.
 ### Bonding Community **post mvp**
 
 These discussionary group sessions will be pre-scheduled events led by a therapist and mediator to enable group discussion between users around specific child issues.  Imagine 5 people joining a moderated group audio phone call.
 
+Please download the [Onboarding design](design/events-postMVP.jpg) for details.
 
-Please download the [Onboarding design](design/onboarding.jpg) for details.
+
 ## Technical Structure
 
 - [Expo](https://docs.expo.dev/)
