@@ -1,27 +1,50 @@
 ![Bonding Health Logo](https://user-images.githubusercontent.com/146778/150411981-a07f26ad-93e7-45e0-91dc-48eb3296fd73.png)
 
-## Read Me
-
-- [Native](https://github.com/BondingHealth/app/tree/main/packages/native#readme)
-- [Backend](https://github.com/BondingHealth/app/tree/main/packages/backend#readme)
-- [CMS](https://github.com/BondingHealth/app/tree/main/packages/frontend#readme)
-
 # Bonding Health
 
-A parent centric ADHD mobile app that solves issues around adherence, therapy costs, access, and treatment measurement analysis.
+A parent centric ADHD mobile app.
 
-## Task management
+## Bonding Health Features
 
-- [ClickUp](https://app.clickup.com/18046866/v/l/h6qwj-5440)
+### Reporting
 
-## Design
+We will be storing child behaviors, from the perspective of the parent, along with the child's treatment regime.  This will help improve treatment adherance.  This will give parents a tool to refer back to for historical retrospective.  This will also give the parents the ability to provide their doctors with a historical data.  
 
-- [Figma](https://www.figma.com/file/XarJM2D9Vo5l4xnPFDjryx/Bonding-Health-Wireframe?node-id=1225%3A9090)
+Please see this [Dashboard design](design/dashboard.jpg) for details.
+### Educational Content & Exercises
 
+Our educational content is split between two different types of audio content.
+
+1. Users will listen to 30 second audio that is used to provide them with guidance.
+2. Users will listen to a guided exercise that includes our 7 motivational enhancement questions.  For more details [see below in ## Data variables](#data-variables).
+
+[Our exercises can be seen here](README-exercises.md)
+
+Please see this [Education design](design/education.jpg) for details.
+
+### Analysis
+
+Once users have input their children, added behaviors and treatments, and interacted with some of our educational content we will be able to display trends and historical data on both graphs and calendars.
+
+[See below for details on what variables we plan to store.](#data-variables)
+
+Please see this [Analysis design](design/analysis.jpg) for details.
+
+### Onboarding
+
+After parents have created their accounts they will be prompted to add a child.  For each child that they add the parent will complete [an intake form](README-intake.md) that we will store to develop a persona of that child for future data suggestion.
+
+Parents will be able to easily create their accounts so as to reduce the time for them to have the "aha!" moment.  We will pressure users to create an account only after they try to save data within the app.
+### Bonding Community **post mvp**
+
+These discussionary group sessions will be pre-scheduled events led by a therapist and mediator to enable group discussion between users around specific child issues.  Imagine 5 people joining a moderated group audio phone call.
+
+
+Please see this [Onboarding design](design/onboarding.jpg) for details.
 ## Technical Structure
 
 - [Expo](https://docs.expo.dev/)
-- [React Native](https://github.com/BondingHealth/app/blob/15e3111d97ae23b562b1adca3a1138417851fd62/packages/native/package.json)
+- [React Native](https://reactnative.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [React Hooks](https://reactjs.org/docs/hooks-intro.html)
 - [Apollo GraphQL](https://www.apollographql.com/)
@@ -74,10 +97,19 @@ Serverless, highly scalable, and cost-effective multicloud data warehouse design
 
 SplitIO has easy to integrate component library that [works well with Segment](https://www.split.io/product/integrations/segment/) and React Native.
 
+
+## [Backend API](https://github.com/BondingHealth/documentation/api)
+
+
 ## Data variables
 
-- child persona:
-  - [see intake form here](https://github.com/BondingHealth/app/blob/main/README-intake.md)
+- child persona is determined by the [child intake form here](https://github.com/BondingHealth/documentation/blob/main/README-intake.md)
+- exercises
+  - Parent mood before and after each exercise is logged
+  - Unique audio content will ask the user 7 questions [see exercises](https://github.com/BondingHealth/documentation/blob/main/README-exercises.md)
+  - version 1: Audio only **MVP**
+  - version 2: Audio & Text **post** mvp
+  - version 3: Audio/Text, & Interactive Data Aggregation [see Exercise Readme](https://github.com/BondingHealth/documentation/blob/api/exercises/README.md) **post** mvp
 - behavior reporting:
   - what behavior (options are maintained via the CMS)
     1. attention
@@ -107,11 +139,6 @@ SplitIO has easy to integrate component library that [works well with Segment](h
     1. Date
     2. Time (optional)
   - is treatment working as expected? yes/no?
-- exercises
-  - Unique audio content will ask the user 7 questions [see exercises](https://github.com/BondingHealth/app/blob/main/README-exercises.md)
-  - version 1: Audio only
-  - version 2: Audio & Text
-  - version 3: Audio/Text, & Interactive Data Aggregation [see Exercise Readme](https://github.com/BondingHealth/app/blob/main/packages/backend/src/domains/exercises/README.md)
 - parent mood
   - before and after listening to audio content rate mood (rating is 0 or 1/happy or not)
 - precision based inquiry
@@ -148,7 +175,7 @@ Note: You will need the API keys. Please ask an administrator for these.
 
 ## Eslint
 
-[rules](https://github.com/BondingHealth/app/blob/main/.eslintrc.json)
+[rules](https://github.com/BondingHealth/documentation/blob/main/.eslintrc.json)
 
 ## Installation steps
 
@@ -187,10 +214,6 @@ $ nvm use 14.16.0
 15. Install [husky](https://typicode.github.io/husky/#/?id=install-1) `$ yarn prepare`
 16. Clone the repo `$ git clone git@github.com:BondingHealth/app.git`
 17. Install dependencies from the app directory (bondinghealth/app) `yarn run install`
-
-## [Backend API](https://github.com/BondingHealth/app/tree/main/packages/backend#api-documentation--endpoints)
-
-## [Cloud Functions](https://github.com/BondingHealth/app/tree/main/packages/backend#cloud-functions)
 
 ## Deployment
 
@@ -241,9 +264,7 @@ root
 ## App Structure
 
 ![Bonding Health C1 Context Diagram](https://user-images.githubusercontent.com/146778/171445933-3aba7b52-520b-40ad-b023-779819417dcc.png)
-
 ![Bonding Health C4 Component Diagram](https://user-images.githubusercontent.com/146778/170324590-6deae2e4-8c22-427f-b549-59c30448b9ec.jpg)
-
 ![Bonding Health Home](https://user-images.githubusercontent.com/146778/152150214-fa5e75a2-af50-434e-bbde-15d355ddf8c6.png)
 ![Bonding Health Exercises](https://user-images.githubusercontent.com/146778/152150222-6787605a-d44c-4a7d-9644-4a2dd8dc8733.png)
 ![Bonding Health Settings](https://user-images.githubusercontent.com/146778/152150226-5f1544f0-e069-469b-b98a-4e15f37c5a6c.png)

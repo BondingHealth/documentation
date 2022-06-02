@@ -1,18 +1,11 @@
-## Read Me
-
-- [Root](https://github.com/BondingHealth/app#readme)
-- [Native](https://github.com/BondingHealth/app/tree/main/packages/native#readme)
-- [Backend](https://github.com/BondingHealth/app/tree/main/packages/backend#readme)
-- [CMS](https://github.com/BondingHealth/app/tree/main/packages/frontend#readme)
-
 ## API Documentation
 
-- [Child](https://github.com/BondingHealth/app/blob/main/packages/backend/src/domains/child/README.md)
-- [User](https://github.com/BondingHealth/app/blob/main/packages/backend/src/domains/user/README.md)
-- [Events](https://github.com/BondingHealth/app/blob/main/packages/backend/src/domains/events/README.md)
-- [Treatments](https://github.com/BondingHealth/app/blob/main/packages/backend/src/domains/treatments/README.md)
-- [Exercises](https://github.com/BondingHealth/app/blob/main/packages/backend/src/domains/exercises/README.md)
-- [GraphQL Schema](https://github.com/BondingHealth/app/blob/main/packages/backend/src/schema.js)
+-   [Child](child/README.md)
+-   [User](user/README.md)
+-   [Behaviors](behaviors/README.md)
+-   [Events](events/README.md)
+-   [Treatments](treatments/README.md)
+-   [Exercises](exercises/README.md)
 
 # Behaviors
 
