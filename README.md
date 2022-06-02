@@ -10,7 +10,7 @@ A parent centric ADHD mobile app.
 
 We will be storing child behaviors, from the perspective of the parent, along with the child's treatment regime.  This will help improve treatment adherance.  This will give parents a tool to refer back to for historical retrospective.  This will also give the parents the ability to provide their doctors with a historical data.  
 
-Please see this [Dashboard design](design/dashboard.jpg) for details.
+Please download the [Dashboard design](design/dashboard.jpg) for details.
 ### Educational Content & Exercises
 
 Our educational content is split between two different types of audio content.
@@ -20,7 +20,7 @@ Our educational content is split between two different types of audio content.
 
 [Our exercises can be seen here](README-exercises.md)
 
-Please see this [Education design](design/education.jpg) for details.
+Please download the [Education design](design/education.jpg) for details.
 
 ### Analysis
 
@@ -28,7 +28,7 @@ Once users have input their children, added behaviors and treatments, and intera
 
 [See below for details on what variables we plan to store.](#data-variables)
 
-Please see this [Analysis design](design/analysis.jpg) for details.
+Please download the [Analysis design](design/analysis.jpg) for details.
 
 ### Onboarding
 
@@ -40,7 +40,7 @@ Parents will be able to easily create their accounts so as to reduce the time fo
 These discussionary group sessions will be pre-scheduled events led by a therapist and mediator to enable group discussion between users around specific child issues.  Imagine 5 people joining a moderated group audio phone call.
 
 
-Please see this [Onboarding design](design/onboarding.jpg) for details.
+Please download the [Onboarding design](design/onboarding.jpg) for details.
 ## Technical Structure
 
 - [Expo](https://docs.expo.dev/)
@@ -98,7 +98,7 @@ Serverless, highly scalable, and cost-effective multicloud data warehouse design
 SplitIO has easy to integrate component library that [works well with Segment](https://www.split.io/product/integrations/segment/) and React Native.
 
 
-## [Backend API](https://github.com/BondingHealth/documentation/api)
+## [Backend API](https://github.com/BondingHealth/documentation/tree/main/api)
 
 
 ## Data variables

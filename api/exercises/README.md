@@ -9,8 +9,15 @@
 
 # Exercises
 
-Recordings and transcripts of Exercises that users can listen to or read. Mood before and after exercise are both recorded.
+  - Parent mood before and after each exercise is logged
+  - Unique audio content will ask the user 7 questions [see exercises](https://github.com/BondingHealth/documentation/blob/main/README-exercises.md)
+  - version 1: Audio only **MVP**
+  - version 2: Audio & Text **post** mvp
+  - version 3: Audio/Text, & Interactive Data Aggregation **post** mvp
 
+## Interactive Data Aggregation **post mvp**
+
+Users will be asked each question individually and their response will be stored in the database.
 ## API Endpoints
 
 - **_createExercise_** `(admin)` creates a new Exercise
