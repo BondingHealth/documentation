@@ -16,7 +16,7 @@ Please download the [Dashboard design](design/dashboard.jpg) for details.
 Our educational content is split between two different types of audio content.
 
 1. Users will listen to 30 second audio that is used to provide them with guidance.
-2. Users will listen to a guided exercise that includes our 7 motivational enhancement questions.  For more details [see below in ## Data variables](#data-variables).
+2. Users will listen to a guided exercise that includes our 7 motivational enhancement questions.  For more details [see below in variables](#data-variables).
 
 [Our exercises can be seen here](README-exercises.md)
 
