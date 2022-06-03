@@ -41,7 +41,7 @@ Please download the [Onboarding design](design/onboarding.jpg) for details.
 
 These discussionary group sessions will be pre-scheduled events led by a therapist and mediator to enable group discussion between users around specific child issues.  Imagine 5 people joining a moderated group audio phone call.
 
-Please download the [Onboarding design](design/events-postMVP.jpg) for details.
+Please download the [Bonding Community design](design/events-postMVP.jpg) for details.
 
 
 ## Technical Structure
@@ -100,6 +100,9 @@ Serverless, highly scalable, and cost-effective multicloud data warehouse design
 
 SplitIO has easy to integrate component library that [works well with Segment](https://www.split.io/product/integrations/segment/) and React Native.
 
+## Why JEST?
+
+Jest is a testing library interface used with React to verify that our code is written with stability.  The Jest tests are run each time a commit is made and will be used within the CI/CD pipeline.
 
 ## [Backend API](https://github.com/BondingHealth/documentation/tree/main/api)
 
