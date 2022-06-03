@@ -270,9 +270,9 @@ root
 ## App Structure
 
 ![Bonding Health C1 Context Diagram](https://github.com/BondingHealth/documentation/blob/main/diagrams/diagram-context.png)
-![Bonding Health C4 Component Diagram](https://github.com/BondingHealth/documentation/blob/main/diagrams/diagram-data-containers.jpg)
+![Bonding Health C4 Component Diagram [WIP]](https://github.com/BondingHealth/documentation/blob/main/diagrams/diagram-data-containers.jpg)
 
-#### old
+#### These diagrams were made a long time ago and are subject to change.  Please refer to the designs for up to date visuals.
 
 ![Bonding Health Reporting](https://github.com/BondingHealth/documentation/blob/main/diagrams/diagram-dashboard-flow.png)
 ![Bonding Health Exercises](https://github.com/BondingHealth/documentation/blob/main/diagrams/diagram-exercises-flow.png)
