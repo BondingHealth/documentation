@@ -150,6 +150,9 @@ Jest is a testing library interface used with React to verify that our code is w
 - precision based inquiry
   - after specific events an in-app popup will appear with a simple question
   - these inquiries are managed by the CMS
+- audio recording
+  - after an exercise we can request a the recording an audio clip of the user's mood
+  - after an exercise we can request a photograph of the user
 
 ## Dependencies
 
