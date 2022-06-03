@@ -147,12 +147,11 @@ Jest is a testing library interface used with React to verify that our code is w
   - is treatment working as expected? yes/no?
 - parent mood
   - before and after listening to audio content rate mood (rating is 0 or 1/happy or not)
+  - audio recording: after an exercise we can request a the recording an audio clip of the user's mood  
+  - photograph: after an exercise we can request a photograph of the user
 - precision based inquiry
   - after specific events an in-app popup will appear with a simple question
   - these inquiries are managed by the CMS
-- audio recording
-  - after an exercise we can request a the recording an audio clip of the user's mood
-  - after an exercise we can request a photograph of the user
 
 ## Dependencies
 
